@@ -20,7 +20,7 @@
         <p>Here is a fun pick of luffy</p>
         <img src="https://imgs.search.brave.com/4-LR9ze_KN1PCn1GVgVmZ5HELjel8WQTGbfkww73yFE/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly9pLmlt/Z3VyLmNvbS8wdW84/SHhWLmpwZw" alt="luffy funny pic">
         <h1>Are You A One Piece Fan!!! <br>Register here</h1>
-        <form action="get">
+        <form action="posts">
             Full Name :<input type="text" name="name"> <br>
             Date Of Birth : <input type="date" name="dob" value = "dob"> <br>
             Favorite Character : <input type="text" name="favChar" > <br>
@@ -28,7 +28,10 @@
             Completed : <br> <input type="radio" name="completed" value="True">Yes <br>
                         <input type="radio" name="completed" value="False">No <br>
             At Which ep currently : <input type="number" name="currentep" value = "currentep" min="1" max="1035"> <br>
-            Favorite Arc 
+            Favorite Arc :
+            <select name="FavArc" id="FavArc">
+                <option value=""></option>
+            </select>
             <input type="submit" value="Register">  
             <input type="reset">
         </form>
