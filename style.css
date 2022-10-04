@@ -3,12 +3,30 @@ body{
     background-size: 100%;
     
 }
-p.funnyPic{
+h1.head1{
+    font-family: 'Gemunu Libre', sans-serif;
+    text-align: center;
+    font-size: 5rem;
+}
+h3{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 6rem;
     text-align: right;
+    color: rgb(191, 205, 224);
+}
+div.things{
+    color: #EF798A;
+    position: relative;
+    bottom: 200px;
+    font-size: 1.5rem;
+}
+p.funnyPic{
+    position: relative;
+    text-align: center;
     font-size: 2rem;
 }
 img{
-    float: right;
+    float: center;
     height: 30em;
     width : 60rem;
 }
